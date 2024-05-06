@@ -1,6 +1,6 @@
 package io.araf.appSWAPI.modelos;
 
-public record Pelicula(String titulo,
+public record Pelicula(String title,
                        int episode_id,
                        String opening_crawl,
                        String director,
