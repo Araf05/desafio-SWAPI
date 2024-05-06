@@ -1,6 +1,8 @@
 import io.araf.appSWAPI.modelos.ConsultaPelicula;
+import io.araf.appSWAPI.modelos.GeneradorDeArchivo;
 import io.araf.appSWAPI.modelos.Pelicula;
 
+import java.io.IOException;
 import java.util.Scanner;
 
 public class Main {
@@ -12,10 +14,11 @@ public class Main {
             var numeroDePelicula = Integer.valueOf(lectura.nextLine());
             Pelicula pelicula = consulta.buscaPelicula(numeroDePelicula);
             System.out.println(pelicula);
-
+            GeneradorDeArchivo generador = new GeneradorDeArchivo();
+            generador.guardarJson(pelicula);
         } catch (NumberFormatException e) {
             System.out.println("Numero no encontrado. " + e.getMessage());
-        } catch (RuntimeException e) {
+        } catch (RuntimeException | IOException e) {
             System.out.println(e.getMessage());
             System.out.println("Finalizando la aplicación");
         }

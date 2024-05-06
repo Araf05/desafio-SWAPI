@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2da964a4-84be-46c8-9c75-f47c0b0d4d07" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/io/araf/appSWAPI/modelos/GeneradorDeArchivo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/io/araf/appSWAPI/modelos/ConsultaPelicula.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/io/araf/appSWAPI/modelos/ConsultaPelicula.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/io/araf/appSWAPI/modelos/Pelicula.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/io/araf/appSWAPI/modelos/Pelicula.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
